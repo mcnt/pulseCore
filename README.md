@@ -225,33 +225,33 @@ followers = abs(hash(user_id.encode())) % 10000 + 100  # ainda não determiníst
 ## ✅ Checklist de Entrega
 
 ### Funcionalidade
-- [ ] Todos os 6 casos de teste passam
-- [ ] Endpoint HTTP funcional
-- [ ] Validações 400/422 implementadas
-- [ ] Função pura disponível para testes
+- [x] Todos os 6 casos de teste passam
+- [x] Endpoint HTTP funcional
+- [x] Validações 400/422 implementadas
+- [x] Função pura disponível para testes
 
 ### Performance
 - [ ] < 200ms para 1000 mensagens (opcional)
-- [ ] Uso de memória otimizado
-- [ ] Algoritmos O(n log n) ou melhor
+- [x] Uso de memória otimizado
+- [x] Algoritmos O(n log n) ou melhor
 
 ### Qualidade
-- [ ] Código organizado e documentado
-- [ ] README com instruções claras (≤ 5 comandos)
-- [ ] Outputs determinísticos
-- [ ] Tratamento de edge cases
+- [x] Código organizado e documentado
+- [x] README com instruções claras (≤ 5 comandos)
+- [x] Outputs determinísticos
+- [x] Tratamento de edge cases
 
 ### Algoritmos
-- [ ] Tokenização/normalização NFKD
-- [ ] Janela temporal relativa ao timestamp da requisição
-- [ ] Ordem de precedência correta no sentimento
-- [ ] Flags MBRAS case-insensitive
-- [ ] Anomalias e trending implementados
-- [ ] SHA-256 determinístico para influência
+- [x] Tokenização/normalização NFKD
+- [x] Janela temporal relativa ao timestamp da requisição
+- [x] Ordem de precedência correta no sentimento
+- [x] Flags MBRAS case-insensitive
+- [x] Anomalias e trending implementados
+- [x] SHA-256 determinístico para influência
 
 ### CI
-- [ ] Criação de um workflow do git actions
-- [ ] Criar um CI de ao menos 3 etapas
+- [x] Criação de um workflow do git actions
+- [x] Criar um CI de ao menos 3 etapas
 
 ## 🎓 Como começar
 
